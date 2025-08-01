@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import time
 
-mport requests
+import requests
 import json
 
 def ai_ask(prompt, data=None, temperature=0.5, max_tokens=250, model="mistral-small-latest", api_key=None, api_url="https://api.mistral.ai/v1/chat/completions"):
