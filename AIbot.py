@@ -61,7 +61,7 @@ def response_generator():
         yield word + " "
         time.sleep(0.05)
 
-st.title("AI bot chat")
+st.title("AIbot chat")
 
 # Initialize chat history
 if "messages" not in st.session_state:
